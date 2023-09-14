@@ -1,0 +1,19 @@
+What is surge:
+it is use for deploy our static website
+
+Procedure: (first time)
+1. install node js
+2. install surge
+3.surge
+3. put credentials
+
+Procedure: (every time) 
+1. open cmd in project directory
+2.  run surge
+3. select domain
+
+
+
+How to redeploy on surge:
+1. open project directory
+2. run surge --domain yourdomain.surge.sh

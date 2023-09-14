@@ -1,0 +1,145 @@
+/* TYPES OF SELECTOR */
+/* 1.UNIVERSLAL SELECTOR  */
+* {
+    /* background-color: red; */
+    /* border: 10px solid black; */
+}
+
+/* 2.TYPE SELECTOR */
+/* h1,h2,a{
+    background-color: blue;
+} */
+
+
+/* CLASS SELECTOR */
+.top {
+    color: yellow;
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+}
+
+h1.top {
+    background-color: red;
+}
+
+/* ID Selector */
+#top1 {
+    background-color: blue;
+}
+
+/* CHILD SELECTOR */
+li>a {
+    background-color: red;
+    color: white;
+}
+
+/* Descendant Selector */
+p a {
+    background-color: red;
+}
+
+/* Adjacent sibling selecotr */
+/* h1+p{
+    background-color: red;
+} */
+/* General sibling selector */
+h1~p {
+    background-color: red;
+}
+
+/* h1{
+    background-color: red;
+} */
+
+
+
+
+/* ******************BOXES***************************** */
+.div1 {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.div2 {
+    background-color: red;
+    /* height: 500px; */
+    width: 60%;
+    padding: 10%;
+    margin: 0px auto 10px;
+    border-top-left-radius: 50px;
+
+}
+
+
+/* ***************Ch14**************** */
+.orderList {
+    list-style-type: upper-roman;
+}
+
+
+.unorderList {
+    list-style-type: circle;
+    /* list-style-position: outside; */
+    /* list-style-image: url('../assest/selector\ presendece.jpg'); */
+    /* list-style: none; */
+    list-style: outside disc;
+    font-size: 30px;
+    /* width: 400px; */
+}
+
+
+.table {
+    border: 1px solid black;
+    width: 600px;
+    background-color: blue;
+    /* padding: 20px 40px; */
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+td:hover {
+    background-color: black;
+    color: azure;
+    font-size: 50px;
+
+}
+
+
+/* ************Forms************* */
+.emailInput {
+    font-size: 25px;
+    color: grey;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    border: none;
+    /* margin-left: 10px; */
+    padding: 5px 10px 5px 35px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.197);
+    /* background-repeat: no-repeat;
+    /* display: block; */
+    /* margin-bottom: 10px; */
+    background-image: url(/assest/selector\ presendece.jpg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+.submitBtn{
+    background-color: yellow;
+    border: 2px solid yellow;
+    border: none;
+    border-radius:20px ;
+    padding: 5px 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.167);
+    /* cursor:url(/assest/selector\ presendece.jpg); */
+}

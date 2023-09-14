@@ -1,0 +1,119 @@
+/* h1{
+    background-color: yellow;
+    color: purple;
+    text-align: center;
+} */
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#heading1 {
+    background-color: #021839;
+}
+
+.para {
+    /* font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: oblique; */
+    /* text-transform:capitalize ; */
+    font-size: 10px;
+    /* font-weight: 200; */
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 50px; */
+    /* word-spacing: 20px; */
+    /* letter-spacing: 20px; */
+    /* text-align: justify; */
+}
+
+.para1 {
+    /* text-align: justify; */
+    vertical-align: middle;
+    text-align: justify;
+    /* text-shadow: x-axis y-axis blur color */
+    text-indent: 76px;
+}
+
+
+
+.main-heading {
+    /* background-color: red; */
+    text-shadow: 10px 20px 20px rgba(31, 196, 31, 0.667);
+    text-align: center;
+}
+
+.para1::first-letter {
+    font-size: 100px;
+    color: purple;
+}
+
+.para1::first-line {
+    font-size: 10px;
+    color: purple;
+    background-color: yellow;
+}
+
+a:link {
+    color: gray;
+}
+
+a:visited {
+    color: blue;
+}
+
+.hover-para {
+    /* background-color: yellow; */
+
+}
+
+.hover-para:hover {
+    color: blue;
+    /* font-size: 40px; */
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+button:active {
+    background-color: yellow;
+    border: 1px solid yellow;
+    box-shadow: 20px 20px 20px black;
+}
+
+.focus-input:focus {
+    color: yellow;
+    font-size: 20px;
+}
+
+#btn1 {
+    background-color: blue;
+}
+
+.btn {
+    background-color: red;
+}
+
+/* ATTRIBUTE SELECTION */
+/* EXISTANCE */
+/* p[class] {
+    background-color: blue;
+} */
+
+
+/* equality */
+/* p[class="dog"] {
+    background-color: red;
+} */
+
+
+/* Space */
+/* p[class~="dog"] {
+    background-color: blue;
+} */
+
+/* prefix */
+p[id^="d"]{
+    background-color: yellow;
+}

@@ -1,0 +1,22 @@
+
+@media (max-width:786px) { 
+    /* 501-786 */
+    .first-col {
+        background-color: blue;
+    }
+}
+@media (max-width:500px ) {
+    /* <500 */
+    .first-col {
+        background-color: red;
+        font-size:80px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+ .main-container{
+    background-color: blue !important;
+    
+ }   
+}
