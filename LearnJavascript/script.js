@@ -43,8 +43,46 @@
 // console.log("age",age);
 // age = 123;
 // console.log("age ", age);
-var age = 12;
-var number = 145;
-age = number;
-console.log("age", age);
-console.log("number",number);
+// var age = 12;
+// var number = 145;
+// age = number;
+// console.log("age", age);
+// console.log("number",number);
+
+// Operators:
+// var age=12;
+// console.log("age", age);
+// non zero, zero value, null, undefined
+
+// arithmetic:(+,-,*,/,%,++,--)
+// var number1 = 23;
+// var number2 = 34;
+// var number3 = 35;
+// // console.log("number1 + number2 =", number1 + number2 + number3);
+// console.log((number1 + number2) * number3 / 100);// (23+34*0.35)-->(23+11.9)-->(34.9)
+// console.log("number1/10",75/9);
+// console.log("number1%10",75%9);
+
+// increment/decrement:
+// var n1 = 12;
+//icremment
+// n1 = n1 + 1;// n1++
+// console.log("n1", n1);
+// decrement
+// n1=n1-1;
+// console.log("n1",n1);
+// console.log("n1", ++n1);
+
+// prefix(++variable) and postfix (varablae++)
+// var n1 = 12;
+// var n2 = n1++;
+// console.log("n1", n1);
+// console.log("n2", n2);
+// console.log("n1++", n1++);
+// console.log("n1", n1);
+
+var x = 1;
+//x=1
+var result = x++ + --x + x++ - --x;
+// 1+1+
+console.log("result ", result);
