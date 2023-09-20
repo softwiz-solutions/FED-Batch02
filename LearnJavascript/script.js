@@ -16,7 +16,7 @@
 /**
  * 1. 0-9,A-Z,a-z,_
  * 2- variable name must start from a-z or _ not with 0-9
- example: 
+ example:
  correct--> age, studentName,_age,age1,age2,age3
  wrong--> 1age, 2studentName
  * 3. don't use keyword as a variable name
@@ -81,8 +81,33 @@
 // console.log("n1++", n1++);
 // console.log("n1", n1);
 
-var x = 1;
-//x=1
-var result = x++ + --x + x++ - --x;
-// 1+1+
-console.log("result ", result);
+// var x = 1;
+// //x=1
+// var result = x++ + --x + x++ - --x;
+// // 1+1+
+// console.log("result ", result);
+// comparison
+// var n1 = 23;
+// var n2 = 34;
+// console.log("n1<n2", n1 > 2)
+//logical operator;*( &&, || , !)
+// console.log("n1<n2", n1 > 2n1 < 10)
+
+// console.log(n1 > 2 && n1 < 10)
+
+// var result = !(n1 > 2) && n1 < 10 || n2 > 12 && n2 > 13;
+// // F || T
+// console.log("result", result);
+// var result = !(n1 > 2) && (n1 < 10 || n2 > 12) && n2 < 13 || n2 > 15;
+// console.log("result", result);
+
+// write a js program to check that number is  equal 10 or 12 or 13;
+// var n = 12;
+// n = n * 12;
+// n*=12;
+// n %= 2;
+// console.log("n", n);
+var n = parseInt(prompt("enter your value"))
+console.log("value of n", typeof (n));
+var result = (false) ? "n is greater then 12" : "number is not greater than 12";
+console.log("result", result);
