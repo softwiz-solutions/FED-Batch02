@@ -51,10 +51,9 @@
 // }
 
 
-// var weekDay = parseInt(prompt("ente week day"))
 
 
-// if (weekDay == 1) {
+// if (weekDay ==1) {
 //     console.log("Monday");
 // }
 // else if (weekDay == 2) {
@@ -78,3 +77,57 @@
 // else{
 //     console.log("please enter valid week day");
 // }
+
+// var weekDay = prompt("ente week day")
+// // var number1 = prompt("enter number 1");
+// var operator = prompt("enter operateor")
+// // switch statement
+// switch (operator) {
+//     case "+":
+//         console.log(num1 + num2);
+//         break;
+//     case 2:
+//         console.log("tue");
+//         break;
+//     case 3:
+//         console.log("wed");
+//         break;
+//     case 4:
+//         console.log("thur");
+//         break;
+//     case 5:
+//         console.log("fri");
+//         break;
+//     case 6:
+//         console.log("sat");
+//         break;
+//     case 7:
+//         {
+//             console.log("sun");
+//             console.log("heh");
+//             break;
+//         }
+//     default:
+//         console.log("please enter valid week day");
+// }
+// var age = parseInt(prompt("enter yoour value"))
+//  age18-25 (youger) age 26-50 (men) age>51 (older)
+// if (age >= 18) {
+//     // console.log("your are eligibe");
+//     if (age >= 51) {
+//         console.log("you are older");
+//     }
+//     else if (age >= 26 && age <= 50) {
+//         console.log("you are men");
+//     }
+//     else {
+//         console.log("you are younger");
+//     }
+// }
+// else {
+//     console.log("you are not eligigle");
+// }
+
+
+
+
