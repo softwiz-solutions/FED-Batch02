@@ -45,9 +45,8 @@
 // var studentName6="ali"
 // var studentName7="ali"
 
-
 // arrays
-let studentName = ["ali","usama","ahmad"]
+// let studentName = ["ali","usama","ahmad"]
 // console.log("first student",studentName[0]);
 // console.log("second student",studentName[1]);
 // console.log("third student",studentName[2]);
@@ -55,6 +54,16 @@ let studentName = ["ali","usama","ahmad"]
 // studentName[1]="usama"
 // console.log("studename",studentName);
 
-for(var i=0;i<3;i++){
-    console.log("student nhame",studentName[i]);
-}
+// for(var i=0;i<3;i++){
+//     console.log("student nhame",studentName[i]);
+// }
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((acc, cur) => {
+//   return acc + cur;
+console.log("acc",acc);
+console.log("cur",cur);
+}, 0);
+
+console.log(sum); // Output: 15
