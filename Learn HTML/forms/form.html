@@ -7,51 +7,92 @@
   </head>
   <body>
     <h1>form</h1>
-    <form method="POST">
-      <p>
-        UserName:
+    <div>
+      <form action="success.html">
+        <div>
+          <label for="userName"> UserName:</label>
+          <input
+            type="text"
+            name="username"
+            maxlength="4"
+            placeholder="example@gmail.com"
+            required
+            id="userName"
+          />
+        </div>
+        <div>
+          <label for="password"> Password:</label>
+          <input
+            type="password"
+            name="password"
+            maxlength="4"
+            placeholder="password*************"
+            required
+            id="password"
+          />
+        </div>
+        <p>Enter Your Bio:</p>
+        <textarea
+          name="bio"
+          cols="20"
+          rows="10"
+          placeholder="My name is ali"
+        ></textarea>
+        <fieldset>
+          <legend>Options</legend>
+          <p>
+            Gender
+            <input
+              type="radio"
+              name="gender"
+              value="male"
+              id="maleGender"
+              checked
+              required
+            />
+            <label for="maleGender">Male</label>
+            <input
+              type="radio"
+              name="gender"
+              value="female"
+              checked
+              required
+            />Female
+          </p>
+          <p>
+            Favourite Fruit
+            <input type="checkbox" name="fruits" value="mango" checked />Mango
+            <input
+              type="checkbox"
+              name="fruits"
+              value="banan"
+              checked="checked"
+            />Banan
+            <input type="checkbox" name="fruits" value="stw" checked />Stw
+          </p>
+        </fieldset>
+        <p>Your City</p>
+        <select name="City" id="" size="3" multiple>
+          <option value="">Choose Your City</option>
+          <option value="fsd">FSD</option>
+          <option value="isb">ISB</option>
+          <option value="lhr" selected>LHR</option>
+        </select>
+        <br />
+        <input type="file" name="" id="" placeholder="enter your file" />
+        <label for="dob">Date Of birth:</label>
+        <input type="reset" name="dob" id="dob" />
+        <label for="userEmail">Email</label>
+        <input type="email" name="email" id="userEmail" />
+        <br />
+        <!-- <button type="submit">Submit Form</button> -->
         <input
-          type="text"
-          name="username"
-          maxlength="4"
-          placeholder="example@gmail.com"
+          type="image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWTMqVFZrCMjEK4AL7a4tkzRlKzrQbRR7YhjpCXvXzxQ&s"
+          height="30"
+          width="30"
         />
-      </p>
-      <p>
-        Password:
-        <input type="number" name="password" size="4" maxlength="4" />
-      </p>
-      <p>Enter Your Bio:</p>
-      <textarea
-        name="bio"
-        cols="20"
-        rows="10"
-        placeholder="My name is ali"
-      ></textarea>
-      <p>
-        Gender
-        <input type="radio" name="gender" value="male" checked />Male
-        <input type="radio" name="gender" value="female" checked />Female
-      </p>
-      <p>
-        Favourite Fruit
-        <input type="checkbox" name="fruits" value="mango" checked />Mango
-        <input
-          type="checkbox"
-          name="fruits"
-          value="banan"
-          checked="checked"
-        />Banan <input type="checkbox" name="fruits" value="stw" checked />Stw
-      </p>
-      <p>Your City</p>
-      <select name="City" id="" size="3" multiple>
-        <option value="" >Choose Your City</option>
-        <option value="fsd">FSD</option>
-        <option value="isb">ISB</option>
-        <option value="lhr" selected>LHR</option>
-      </select>
-      <br>
-      <input type="file" name="" id="" placeholder="enter your file">
-    </form>
+      </form>
+    </div>
   </body>
 </html>
