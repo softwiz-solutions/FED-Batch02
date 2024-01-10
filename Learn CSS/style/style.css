@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "myRoboto";
+  src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+@font-face {
+  font-family: "myRobotoBold";
+  src: url("../fonts/Roboto/Roboto-BlackItalic.ttf");
+}
+body {
+  font-family: "myRobotoBold";
+  font-weight: 900;
+}
+/* h1,
+p {
+  color: green;
+  background-color: blue;
+} */
+
+/* *{
+  color:green;
+  background-color: red;
+  border: 10px solid gray;
+} */
+/* body{
+  color:green;
+  background-color: red;
+  border: 10px solid gray;
+} */
+
+span {
+  color: aqua;
+}
+/* .heading {
+  color: yellow;
+}
+p.heading,
+.para {
+  color: blue;
+} */
+
+/* #myHeadingFirst{
+color:blueviolet;
+} */
+
+/* span{
+  color: orange;
+} */
+/*  child selector: target first child  */
+li > .link {
+  color: palevioletred;
+}
+/*  descendent selector: target all  childs  */
+/* li a {
+  color: palevioletred;
+} */
+
+div p {
+  color: red;
+  font-style: italic;
+}
+
+/* adjacent */
+span + p {
+  color: yellow;
+}
+
+/* general sibling */
+span ~ p {
+  color: blue;
+}
+/* 
+#firstHeading {
+  color: red;
+}
+.heading {
+  color: blue !important;
+}
+h1 {
+  color: yellow !important;
+} */
+.mainDiv {
+  color: red;
+}
+.mainPara {
+  /* color:rgba(29, 4, 4, 0.7); (0,255)*/
+  /* color: #a09f9077;  */
+  color: #000;
+  /* (0-f) */
+}
+
+/* 0-9,a=10,11=b,12=c,13=d,14=e,15=f (16) */
+
+/* /*********************Colors.html**************************** */
+.gray9 {
+  color: red;
+  background-color: #fcac;
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-family:  */
+  font-size: 30px;
+  font-weight: 900;
+}
+.gray8 {
+  color: #343a40;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.gray9 {
+  font-style: oblique;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+}
+.para{
+  line-height: 300px;
+}

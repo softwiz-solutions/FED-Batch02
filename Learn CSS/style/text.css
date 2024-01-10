@@ -1,0 +1,30 @@
+.heading {
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+.para {
+  background-color: yellow;
+  text-align: justify;
+}
+.spanDiv {
+  background-color: orange;
+  text-align: center;
+}
+.span {
+  /* background-color: purple; */
+  /* text-align: center; */
+}
+.link {
+  background-color: green;
+  /* text-align: center; */
+}
+
+.imageDetails {
+  vertical-align: text-bottom;
+}
+
+.heading {
+  text-indent: 120px;
+  text-shadow: -50px -50px 2px#aaaa;
+}
