@@ -19,8 +19,38 @@
         color: yellow;
       }
     </style> -->
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        animation-name: exampleF;
+        animation-duration: 10s;
+        /* ani */
+      }
+
+      @keyframes exampleF {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      h1:hover {
+        transition: all 3s ease;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 10px;
+        text-decoration-color: orange;
+      }
+    </style>
   </head>
   <body>
+    <h1>transitions and transform</h1>
+    <button>hello word</button>
+    <div>helo</div>
     <!-- <h1 class="heading" id="firstHeading">CSS Cascading Rule</h1>
     <div class="mainDiv">
       <p class="mainPara">

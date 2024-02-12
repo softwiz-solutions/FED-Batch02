@@ -1,0 +1,49 @@
+/*  */
+
+.div {
+  height: 200px;
+  width: 200px;
+}
+
+.div1 {
+  background-color: red;
+}
+.div2 {
+  background-color: yellow;
+  /* position: relative;
+  top: 30px;
+  left: 50px; */
+  /* position: absolute;
+  bottom: 10px;
+  right: 0px; */
+  /* top: 30px;
+  left: 50px; */
+}
+.homeSectionDiv {
+  height: 500px;
+  background-color: orange;
+  position: relative;
+  /* z-index: 2; */
+}
+.div3 {
+  background-color: green;
+  position: absolute;
+  top: 3px;
+  left: 90px;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+.goTopLink {
+  /* background-color: green; */
+  font-weight: bolder;
+  position: sticky;
+  top: 40px;
+  z-index: 3;
+}
+
+.goTopLink > a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}

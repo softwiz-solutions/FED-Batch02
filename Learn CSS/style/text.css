@@ -28,3 +28,59 @@
   text-indent: 120px;
   text-shadow: -50px -50px 2px#aaaa;
 }
+
+.para:first-line {
+  font-size: 79px;
+}
+div > :nth-child(odd) {
+  color: blue;
+}
+
+ol > :nth-child(1) > :first-child {
+  background-color: red;
+}
+
+.linkTesting:link {
+  color: green;
+}
+.linkTesting:active {
+  color: orange;
+}
+.linkTesting:visited {
+  color: black;
+}
+
+h1:hover {
+  background-color: red;
+}
+.btn:hover {
+  background-color: yellow;
+  font-size: 30px;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid yellow;
+}
+.btn:active {
+  background-color: purple;
+}
+
+/* .textInput {
+  background-color: purple;
+  color: white;
+  font-size: 23px;
+}
+
+.textInput:focus {
+  background-color: green;
+  font-size: 64px;
+}
+.textInput:active {
+  background-color: orange;
+  font-size: 64px;
+}
+.textInput:hover{
+  background-color: gray;
+} */
+p[class] {
+  background-color: red;
+}

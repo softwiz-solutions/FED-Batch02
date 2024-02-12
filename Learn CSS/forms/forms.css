@@ -1,0 +1,33 @@
+input {
+  border: none;
+  outline: none;
+  font-size: 29px;
+}
+.mainDiv {
+  margin-top: 10px;
+  padding: 10px;
+  color: red;
+  border-radius: 20px;
+  border-bottom: 5px solid indianred !important;
+  /* box-shadow: 10px 10px 10px #5e5a5a; */
+}
+.formDiv {
+  width: 40%;
+  /* background-color: red; */
+}
+.radio {
+  height: 20px;
+  width: 90px;
+  color: red;
+  background-color: red !important;
+  cursor: e-resize;
+}
+.radio:checked {
+  background-color: yellow !important;
+}
+
+.formDiv {
+  height: 600px;
+  width: 900px;
+  background: linear-gradient(to bottom, red, blue, yellow, orange);
+}

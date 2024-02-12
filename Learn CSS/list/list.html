@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    <style>
+      ul {
+        /* list-style-image: url('../assets/car.jpg'); */
+        list-style-type: decimal;
+        list-style-position: outside;
+      }
+      li {
+        margin: 20px 0px 0px 0px;
+        border: 2px solid black;
+        padding: 30px;
+      }
+      table {
+        width: 50%;
+        margin: 0 auto;
+        /* background-color: black; */
+        /* color: white; */
+        /* border-spacing: 19px; */
+        border-collapse: separate;
+      }
+      th {
+        background-color: blue;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid blue;
+        background-color: red;
+        color: white;
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <ul>
+      <li>
+        math Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+        laborum, ipsum quod molestias excepturi molestiae sunt odio vitae ad non
+        iste ab itaque alias id. Sit, nulla. Repellendus, sint corrupti?
+      </li>
+      <li>
+        bio Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos quo
+        eveniet non adipisci vel officiis vitae velit repellat voluptatum magnam
+        maxime optio consequatur, nobis voluptatem saepe quaerat, delectus rerum
+        voluptates!
+      </li>
+      <li>
+        comp Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+        obcaecati at inventore, cum alias similique voluptatibus enim ex error.
+        Tempore, facere! Tempora ad perferendis facilis earum laborum animi hic
+        maiores.
+      </li>
+    </ul> -->
+
+    <h1>First Edition Auctions</h1>
+    <table>
+      <tr>
+        <th>Author</th>
+        <th>Title</th>
+        <th class="money">Reserve Price</th>
+        <th class="money">Current Bid</th>
+      </tr>
+      <tr>
+        <td>E.E. Cummings</td>
+        <td>Tulips & Chimneys</td>
+        <td class="money">$2,000.00</td>
+        <td class="money">$2,642.50</td>
+      </tr>
+      <tr class="even">
+        <td>Charles d'Orleans</td>
+        <td>Poemes</td>
+        <td class="money"></td>
+        <td class="money">$5,866.00</td>
+      </tr>
+      <tr>
+        <td>T.S. Eliot</td>
+        <td>Poems 1909 - 1925</td>
+        <td class="money">$1,250.00</td>
+        <td class="money">$8,499.35</td>
+      </tr>
+      <tr class="even">
+        <td>Sylvia Plath</td>
+        <td>The Colossus</td>
+        <td class="money"></td>
+        <td class="money">$1031.72</td>
+      </tr>
+    </table>
+  </body>
+</html>
