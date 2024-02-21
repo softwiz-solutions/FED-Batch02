@@ -47,15 +47,15 @@
 //  1. snake case: user_name;
 // 2. camel case : userName;
 // 3. pascal case: UserName
-var myName = "abdul hanan";
-var age = -24; // non zero
-age = 0; // zero
+// var myName = "abdul hanan";
+// var age = -24; // non zero
+// age = 0; // zero
 // age = "24";
-var fatherName = "Muhammad Tahir";
-var gender = "Male";
-myName = "Ali";
-var player = true;
-console.log(typeof player);
+// var fatherName = "Muhammad Tahir";
+// var gender = "Male";
+// myName = "Ali";
+// var player = true;
+// console.log(typeof player);
 // console.log(
 //   "My name is ",
 //   myName,
@@ -91,14 +91,14 @@ console.log(typeof player);
 // 2. arithmetic operator:
 //  +
 // % modulus operator
-var x = 2;
-var y = 8;
-var z = 9;
+// var x = 2;
+// var y = 8;
+// var z = 9;
 // var sumResult = x + y + z;
 // console.log("x + y+ z", sumResult);
-var result = y / x;
-var reminder = y % x;
-console.log("result", result, reminder);
+// var result = y / x;
+// var reminder = y % x;
+// console.log("result", result, reminder);
 
 // var result =(1 - 2) + 4 / 2 * 2;
 // 1-2 + 2 *2;
@@ -126,3 +126,94 @@ console.log("result", result, reminder);
 // console.log("x++", x++);
 // console.log("++x", ++x);
 // console.log("x", x);
+
+// increment / decrement
+// prefix-> --x, ++x;
+// post --> x--,--x
+// var x = 1;
+// ++x;
+// var y = x++;// y=1 , 1+1=2
+// console.log("y=", y);
+// console.log("x=", x);
+// var x = 1;
+// var result = x++ + --x - --x + x--;
+// console.log("result=", result);
+// console.log("x", x);
+
+// relation operators (>,<,>=,<=, !=,== , ===)
+// true, false,
+var a = 21;
+var b = 30;
+var result = (b = a); // reulst=a, b=a
+
+console.log("a", a, "==", "b", b, result);
+console.log("type of a", typeof a, "type of b", typeof b);
+var myName = "abdul hanan";
+// console.log(true > false);
+// console.log("h")
+
+// // 1. solve this in register
+// var y = 2;
+// var result = y++ - --y + y-- + ++y - ++y;
+// var x = 1;
+// var result = x++ - --x + ++y - x-- + ++y + x++;
+
+// 2. write a program to store your age and check that your age is greater then or equal to 19 or note;
+//3 . write a program to add any two numbers and check that there result is greater than 90 or not;
+// 4. write a program and take any two random numbers and check that they are equals?
+
+// logical operators
+// var x = 12;
+// var y = 14;
+// var result = y > x;
+
+// var result=x>15 x<20;
+
+//  AND -> &&
+// OR -> ||
+// NOt --> !
+
+// AND
+// var x = 15;
+// var result = x >= 15 && x < 20;
+// console.log("result", result);
+
+// OR
+// var y = 14;
+// var resultOr = y >= 15 || y < 20;
+// console.log("resultOr=", resultOr);
+
+// NOT
+// var z = 12;
+// var resultNot = !z >= 12;
+// console.log("resultNot!", resultNot);
+
+// var text = "hy1";
+
+// var textResult = !(text == "hello" || text == "hy");
+// console.log("textResult", textResult);
+
+// var x = 13;
+// var y = 14;
+// var result =  !(y > 14) && x < 15 || y > 19 && x < 19;
+// console.log("result",result)
+
+// write a program to check that a number is equal to 19 or equal to 13 or equal to 15
+
+// var x = 19;
+// var result = x == 19 || x == 13 || x == 15;
+// console.log("result", result);
+
+// advance assignment operator
+
+// var x = 19;
+// var y = 14;
+// // x=x+15;
+// x += y + 1; /// x=x*15  // x=x+y+1;
+// console.log("x", x);
+var age = 8;
+var result = age >= 18 && age <= 25 ? "you are adult" : "you are underage";
+console.log("result", result);
+
+// var answer = result == "you are adult" ? true : false;
+// console.log("answer",answer)
