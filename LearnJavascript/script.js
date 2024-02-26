@@ -211,9 +211,13 @@ var myName = "abdul hanan";
 // // x=x+15;
 // x += y + 1; /// x=x*15  // x=x+y+1;
 // console.log("x", x);
-var age = 8;
-var result = age >= 18 && age <= 25 ? "you are adult" : "you are underage";
-console.log("result", result);
+// var age = 8;
+// var result = age >= 18 && age <= 25 ? "you are adult" : "you are underage";
+// console.log("result", result);
 
 // var answer = result == "you are adult" ? true : false;
 // console.log("answer",answer)
+
+
+//
+// conditions
