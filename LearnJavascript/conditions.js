@@ -51,3 +51,34 @@
 // percentage>=80, B
 // percentage>=70, C
 // percentage>=60, D
+
+// switch case:
+
+//  2+2=4, 3+1=4, 5-1=4, 4+0=4;
+
+var dayNumber = parseInt(prompt("Please enter a day number"));
+switch (dayNumber) {
+  case 1: // case dayNumber==1
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tues");
+    break;
+  case 3:
+    console.log("Wed");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Fri");
+    break;
+  case 6:
+    console.log("Sat");
+    break;
+  case 7:
+    console.log("Sun");
+    break;
+  default:
+    console.log("please enter number b/w 1 to 7");
+}
