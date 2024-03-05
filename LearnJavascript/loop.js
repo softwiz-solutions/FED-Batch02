@@ -57,3 +57,23 @@
 //   console.log("hello");
 //   ans = prompt("Do you want to proceed? y/n");
 // }
+
+// nested loop
+// nested for loop
+
+// *****
+// *****
+// *****
+// *****
+
+// for (var i = 0; i < 5; i++) {
+//   for (var j = 0; j < 5; j++) {
+//     console.log("i=", i, "j=", j);
+//   }
+// }
+
+// for (var i = 1; i <= 10; i++) {
+//   console.log("2 X", i, "=", 2 * i);
+// }
+
+// write a program, take two numbers from user and a operator from user, and then show the result
