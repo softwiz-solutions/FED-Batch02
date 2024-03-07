@@ -25,7 +25,7 @@
 // students[2] = prompt("please third enter user name");
 // students[3] = prompt("please fourth enter user name");
 // console.log("students", students);
-var fruits = ["mango", "melon", "banana", "apple", "dates", "cheery"];
+// var fruits = ["mango", "melon", "banana", "apple", "dates", "cheery"];
 // console.log("fruits",fruits[0])
 // console.log("fruits",fruits[1])
 // console.log("fruits",fruits[2])
@@ -35,3 +35,65 @@ var fruits = ["mango", "melon", "banana", "apple", "dates", "cheery"];
 // }
 
 // write a program to get 5 books name from user,show the output,do this using array and loop;
+
+// var studentsName = ["ali", "ahmad", "usama", "muawiya"];
+// console.log("students name", studentsName[0]);
+// console.log("students name", studentsName[1]);
+// console.log("students name", studentsName[2]);
+// console.log("students name", studentsName[3]);
+// for (var i = 0; i < studentsName.length; i++) {
+//   if (i % 2 == 0) {
+//     console.log("students name", studentsName[i]);
+//   }
+// }
+
+// user input
+// var studentsName = [];
+// studentsName[0] = prompt("Please enter name");
+// studentsName[1] = prompt("Please enter name");
+// studentsName[2] = prompt("Please enter name");
+// for (var i = 0; i < 4; i++) {
+//   studentsName[i] = prompt("Please enter name");
+// }
+
+// for (var i = 0; i < studentsName.length; i++) {
+//   console.log("students name", studentsName[i]);
+// }
+
+// methods on array
+// var studentsName = ["ali", "ahmad", "usama", "muawiya"];
+//  add or remove last element of array
+// TODO: for removing last element of array
+// var lastElement = studentsName.pop();
+// console.log("lastElemnt", lastElement);
+// console.log("studentsName", studentsName);
+// TODO: for add in last element of array
+// studentsName.push("zainab");
+// studentsName.push("fajar");
+// studentsName.pop();
+// console.log("studentsName", studentsName);
+
+// TODO: for removing first element of array
+// studentsName.shift();
+// TODO: for add first element of array
+
+// studentsName.unshift("abdul hanan");
+
+// console.log("studentsName", studentsName);
+
+var studentsName = ["ali", "ahmad", "usama", "muawiya"];
+
+// TODO: for add  element anywerhere in array
+// var deltedElement = studentsName.splice(0, 1,"muawiya");
+// console.log("studentsName", studentsName);
+// console.log("deltedElement", deltedElement);
+
+// TODO: for remove  element anywerhere in array
+
+// studentsName.slice(0, 2);
+// console.log("students", studentsName);
+
+
+// var getElements=studentsName.slice(0,4)
+// console.log("getelement",getElements)
+// console.log("studentsName",studentsName)
