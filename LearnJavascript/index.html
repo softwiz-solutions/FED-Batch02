@@ -5,12 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javasript</title>
   </head>
+  <style>
+    button {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(15, 121, 9, 0.6952906162464986) 35%,
+        rgba(0, 212, 255, 1) 100%
+      );
+      padding: 15px 20px;
+      border-radius: 100px;
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    .button-text {
+      font-size: 50px;
+      font-weight: 500;
+      color: pink;
+    }
+    input {
+      padding: 10px;
+      border-radius: 20px;
+      border: 2px solid yellow;
+      font-size: 50px;
+      font-weight: 500;
+      color: pink;
+    }
+  </style>
   <body>
     <h1>javascript</h1>
+    <!-- <a onclick="alert('hello')"> say hello </a> -->
     <!-- <script src="script.js"></script> -->
     <!-- <script src="conditions.js"></script> -->
     <!-- <script src="loop.js"></script> -->
     <!-- <script src="array.js"></script> -->
-    <script src="number.js"></script>
+    <!-- <button
+      onMouseover="className='after-pic.jpg'"
+      onmouseout="this.style.color='white'"
+    >
+      Click me !
+    </button> -->
+    <!-- <img
+      src="car2.png"
+      alt=""
+      height="230"
+      class="hello"
+      onMouseover="width=123; heigth=234"
+      onMouseout="src='bike.jpg'"
+      width="230"
+    /> -->
+    <form>
+      <label>user name</label>
+      <input
+        type="text"
+        placeholder="enter user name"
+        onchange="this.style.color='green'"
+      />
+    </form>
+    <!-- <scripteve src="number.js"></scripteve> -->
+    <script src="events.js"></script>
   </body>
 </html>
