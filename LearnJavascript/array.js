@@ -8,7 +8,7 @@
 // console.log("first student ", student0);
 // array
 // array is used to store the same type of data
-
+// hello
 // var students = ["ali", "ahmad", "usama", "amir", "rehman"];
 
 // // console.log("student data", students);
