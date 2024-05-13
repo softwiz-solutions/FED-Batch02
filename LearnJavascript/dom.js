@@ -36,3 +36,45 @@ function sendMessage() {
   // var newTxt = document.createTextNode("Hello!");
   // nodeToAdd.appendChild(newTxt);
 }
+
+// function submitForm() {
+//   let userName = document.getElementById("userName");
+//   let fatherName = document.getElementById("fatherName");
+//   if (userName.value.length == 0 || fatherName.value.length == 0) {
+//     alert("Please enter fill the complete form");
+//     // userName.focus();
+//     return;
+//   }
+
+//   document.getElementById("inputFatherName").innerHTML = fatherName.value;
+//   document.getElementById("inputUserName").innerHTML = userName.value;
+//   fatherName.value = "";
+//   userName.value = "";
+// }
+
+function submitForm() {
+  // let stateName = document.getElementById("states");
+  // if (stateName.selectedIndex == 0) {
+  //   alert("Pleaes select the country");
+  // }
+  // console.log("statenem", stateName.value);
+  // for gender
+  // let gender = document.getElementsByName("gender");
+  // let userGender;
+  // for (let i = 0; i < gender.length; i++) {
+  //   if (gender[i].checked) {
+  //     userGender = gender[i].value;
+  //   }
+  // }
+  // console.log("gender", userGender);
+
+  // for books
+  let books = document.getElementsByName("books");
+  let userBooks = [];
+  for (let i = 0; i < books.length; i++) {
+    if (books[i].checked) {
+      userBooks.push(books[i].value);
+    }
+  }
+  console.log("userBooks", userBooks);
+}
