@@ -105,3 +105,16 @@ a {
     color-scheme: dark;
   }
 }
+
+.main {
+  background-color: red;
+  padding: 23px;
+}
+button {
+  background-color: orange;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 5px 10px;
+  color: white;
+}
