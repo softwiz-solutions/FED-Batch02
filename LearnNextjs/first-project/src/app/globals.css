@@ -118,3 +118,19 @@ button {
   padding: 5px 10px;
   color: white;
 }
+
+.card {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  border: 2px solid white;
+  padding: 23px;
+  border-radius: 10px;
+}
+
+.mainCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
