@@ -3,14 +3,15 @@ import styles from "./page.module.css";
 import MyButton from "@/component/MyButton";
 import Card from "@/component/Card";
 import CardSections from "@/component/pageSections/CardSections";
+import Counter from "@/component/Counter";
 
 export default function Home() {
   // const myFavourtieBooks = ["comp", "bio", "eng", "math", "urdu"];
 
   return (
     <main>
-      <CardSections />
-      
+      {/* <CardSections /> */}
+      <Counter />
       {/* <MyButton title="my button" />
       <MyButton title="my button 1" />
       <MyButton title="my button 2" />
