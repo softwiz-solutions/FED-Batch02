@@ -4,6 +4,7 @@ import MyButton from "@/component/MyButton";
 import Card from "@/component/Card";
 import CardSections from "@/component/pageSections/CardSections";
 import Counter from "@/component/Counter";
+import Link from "next/link";
 
 export default function Home() {
   // const myFavourtieBooks = ["comp", "bio", "eng", "math", "urdu"];
@@ -11,7 +12,9 @@ export default function Home() {
   return (
     <main>
       {/* <CardSections /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <h1>Main page</h1>
+      <Link href="/about">go to about</Link>
       {/* <MyButton title="my button" />
       <MyButton title="my button 1" />
       <MyButton title="my button 2" />
