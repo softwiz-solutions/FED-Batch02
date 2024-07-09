@@ -8,13 +8,14 @@ import Link from "next/link";
 
 export default function Home() {
   // const myFavourtieBooks = ["comp", "bio", "eng", "math", "urdu"];
-
+  // const [value,setValue]=useState("")
   return (
     <main>
-      {/* <CardSections /> */}
+      <CardSections />
+      <h1>Nextjs counter app</h1>
+      <Image src="/assests/homePageBackground.png" height={900} width={900} />
       {/* <Counter /> */}
-      <h1>Main page</h1>
-      <Link href="/about">go to about</Link>
+      {/* <Link href="/about">go to about</Link> */}
       {/* <MyButton title="my button" />
       <MyButton title="my button 1" />
       <MyButton title="my button 2" />
