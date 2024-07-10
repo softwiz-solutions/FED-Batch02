@@ -1,4 +1,4 @@
-import Todo from "@/component/Todo";
+import Todo from "@/components/Todo";
 import React from "react";
 
 const page = () => {
