@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 
 const Todo = () => {
+  const list = [{ title: "payoent" }, { title: "js" }, { title: "js" }];
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState("");
 
@@ -30,6 +31,16 @@ const Todo = () => {
         <h1 className="text-4xl text-center text-yellow-600 font-extrabold ">
           My Todos
         </h1>
+
+        <ul>
+          {list.map((item, index) => {
+            return (
+              <li key={index} className="list-disc text-2xl mt-4">
+                {item.title}
+              </li>
+            );
+          })}
+        </ul>
         <form onSubmit={handleSubmit} className="mt-4 flex gap-3">
           <input
             className="p-3 border border-5 border-red-900 rounded-3xl"
